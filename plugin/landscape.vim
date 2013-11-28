@@ -3,7 +3,7 @@
 " Version: 0.0
 " Author: itchyny
 " License: MIT License
-" Last Change: 2013/08/23 14:32:30.
+" Last Change: 28-Nov-2013 17:01:01.
 " =============================================================================
 
 if exists('g:loaded_landscape') && g:loaded_landscape
@@ -26,3 +26,5 @@ let g:loaded_landscape = 1
 
 let &cpo = s:save_cpo
 unlet s:save_cpo
+
+nnoremap <ESC><ESC> :noh<return>
