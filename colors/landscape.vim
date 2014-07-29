@@ -132,7 +132,7 @@ augroup MatchAdd
   autocmd BufCreate,BufNew,WinEnter,FileType * call s:newmatch()
 augroup END
 
-highlight SpellBad term=none cterm=underline ctermbg=127 gui=none guibg=#5f0000
+highlight SpellBad term=none cterm=underline ctermbg=160 gui=none guibg=#5f0000
 highlight default link SpellCap SpellBad
 highlight default link SpellLocal SpellBad
 highlight default link SpellRare SpellBad
